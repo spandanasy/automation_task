@@ -11,8 +11,8 @@ pipeline {
         }
         stage('Run Tests') {
             steps {
-                dir('C:\Users\Spandana SY-int-219\PycharmProjects\MyProject') {
-                        bat '"C:\Users\Spandana SY-int-219\PycharmProjects\MyProject\run.bat"'
+                dir('C:\\Users\\Spandana SY-int-219\\PycharmProjects\\MyProject') {
+                        bat '"C:\\Users\\Spandana SY-int-219\\PycharmProjects\\MyProject\\run.bat"'
                     }
                 }
             }

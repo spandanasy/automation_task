@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
              steps {
                 checkout scmGit(branches: [[name: '*/master']], extensions: [],
-                userRemoteConfigs: [[url: 'https://github.com/Bhavyakp321/Automation.git']])
+                userRemoteConfigs: [[url: 'https://github.com/spandanasy/automation_task.git']])
             }
 
         }
